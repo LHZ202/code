@@ -1,0 +1,31 @@
+int main()
+{
+	printf("今日出售\n");
+	printf("\t苹果\t鸭梨\t香蕉\t橘子\n");
+	printf("售价（单位：元）\n");
+	printf("\t2.50\t1.80\t2\t1.60\n");
+	printf("请输入您需要购买的数量：\n");
+	int a, b, c, d;
+	printf("\t苹果\t鸭梨\t香蕉\t橘子\n");
+	scanf_s("%d%d%d%d", &a, &b, &c, &d);
+	int mon = 0;
+	int mon3 = 0;
+	mon = 2.5 * a + 1.8 * b + 2.0 * c + 1.60 * d;
+	if (mon % 2 > 5)
+		{
+		printf("您需要总支付的金额为%d\n", mon + 1);
+		mon3 = mon + 1;
+		}
+	else
+		{
+		printf("您需要总支付的金额为%d\n", mon);
+		mon3 = mon;
+		}
+	printf("请输入您支付的钱数：\n");
+	int mon1 = 0;
+	int mon2 = 0;
+	scanf_s("%d", &mon1);
+	mon2 = mon1 - mon3;
+	printf("应找您的钱数为：%d\n",mon2);
+		return 0;
+}
