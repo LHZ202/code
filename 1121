@@ -1,0 +1,14 @@
+int main()
+{
+	double a, b;
+	printf("您的存款金额为：");
+	scanf_s("%lf", &a);
+	printf("您的存款年限为：");
+	scanf_s("%lf", &b);
+	double mon1 = 0;
+	
+	mon1 = a + a * (1.2 / 100) * b;
+	printf("存款本利之和为%lf元", mon1);
+
+	return 0;
+}
