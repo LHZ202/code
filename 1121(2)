@@ -1,0 +1,27 @@
+int main()
+{
+	double f = 0;
+	printf("请输入您当月累计用电：\n");
+	scanf_s("%lf", &f);
+	int mon1 = 0;
+	int mon3 = 0;
+	mon1 = f * 0.6*10;
+	printf("共需支付%d角", mon1);
+	int a, b, c = 0;
+	a = mon1;
+	b = 0;
+	int mon2 = (mon1 - a) * 10;
+	while(mon2>0)
+	{			
+		if (mon2 >= 5)
+		{
+			b++;
+			mon2 = mon2 - 5;
+		}
+		else
+			c = mon2;
+		break;
+	}
+	printf("共需%d张1元、%d张5角的和%d张1角的", a, b, c);
+	return 0;
+}
