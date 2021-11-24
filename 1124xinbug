@@ -1,0 +1,65 @@
+void menu()
+{
+	printf("------------------------\n");
+	printf("------------------------\n");
+	printf("-1 开始游戏  0 取消游戏-\n");
+	printf("------------------------\n");
+	printf("------------------------\n");
+}
+void game()
+{
+	int guess = 0;
+	int b = 0;
+	 
+	 
+	 b = rand()%100+1;
+	// printf("%d", b);
+
+	 while (1)
+	 {
+		 printf("猜猜数字：\n");
+		 scanf_s("%d", &guess);
+		 if (guess < b)
+		 {
+			 printf("猜小了\n");
+		 }
+		 else if (guess > b)
+		 {
+			 printf("猜大了 \n");
+		 }
+		 else 
+		 {
+			 printf("恭喜你，猜对了\n");
+		 }
+		 
+	 }
+
+}
+int main()
+{
+	int a = 0;
+	srand((unsigned int)time(NULL));
+	do
+	{
+		menu();
+		
+		printf("是否开始游戏\n");
+		scanf_s("%d", &a);
+
+		switch (a)
+		{
+		case 1:
+			game();
+			break;
+		case 0:
+			printf("你选择结束游戏。请推出重新选择");
+			break;
+		default:
+			printf("你选择结束游戏。请推出重新选择");
+			break;
+		}		
+	}
+	while (a);
+		return 0;
+
+}
