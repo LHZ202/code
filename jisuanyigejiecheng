@@ -1,0 +1,19 @@
+int main()
+{
+
+	int a = 1;
+	int b = 0;
+	int n = 0;
+	printf("计算n的阶乘：\n");
+	printf("请输入n：");
+	scanf_s("%d", &n);
+	for (b = 1; b <= n; b++)
+	{
+		a = a * b;
+		
+	}
+	if (b = n)
+		printf("%d", a);
+	return 0;
+
+}
