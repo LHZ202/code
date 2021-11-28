@@ -1,0 +1,52 @@
+int main()
+{
+	char type = 0;
+	int hour = 0;
+	int min = 0;
+	int sec = 0;
+	int hour1 = 0;
+	int min1 = 0;
+	int sec1 = 0;
+	int hour2 = 0;
+	int min2 = 0;
+	int sec2 = 0;
+	int mon = 0;
+
+	printf("请输入汽车类型：\n");
+	scanf_s("%c", &type);
+
+	printf("请输入入库时间hour小时min分钟sec秒：\n");
+	scanf_s("%d%d%d", &hour1,&min1,&sec1);
+	printf("请输入出库时间x小时：x分钟：x秒：\n");
+	scanf_s("%d%d%d", &hour2, &min2, &sec2);
+
+	hour = ((hour2 * 3600 + min2 * 60 + sec2) - (hour1 * 3600 + min1 * 60 + sec1)) / 3600.0;
+	if (type == 'C')
+	{
+		if (hour <= 3)
+			mon = hour * 5;
+		else
+			mon = 15 + (hour - 3) * 10;
+		printf("需要支付车费%d元\n", mon);
+	}
+	else if (type == 'B')
+	{
+		if (hour <= 2)
+			mon = hour * 10;
+		else
+			mon = 20 + (hour - 2) * 15;
+		printf("需要支付车费%d元\n", mon);
+	}
+	else if (type == 'T')
+	{
+		if (hour <= 1)
+			mon = hour * 10;
+		else
+			mon = 10 + (hour - 1) * 15;
+		printf("需要支付车费%d元\n", mon);
+	}
+	else
+		printf("输入类型错误，请退出重新输入：");
+
+	return 0;
+}
