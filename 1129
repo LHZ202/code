@@ -1,0 +1,22 @@
+void num(int a)
+{
+	if (a >= 10)
+		num(a / 10);
+	printf("%d", a % 10);
+	printf(" ");
+}
+
+
+
+int main()
+{
+	int a;
+	int b = 10;
+	int c = 0;
+	printf("请输入一个整型：\n");
+	scanf("%d", &a);
+
+	num(a);
+	
+	return 0;
+}
