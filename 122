@@ -1,0 +1,27 @@
+int main()
+{
+	int a;
+	int b;
+	int g;
+	int c = 1;
+	printf("请输入一个整型：\n");
+	scanf_s("%d", &a);
+
+	int e = a;
+	for (b = 1; a >= 10; b++)
+	{
+		a = a / 10;
+	}
+
+	for (b =b; b >= 1; b--)
+	{
+		c = 10 * c;
+	}
+	for (; c >= 1; c = c / 10)
+	{
+		g = e / c;
+		printf("%d",g);
+		e = e - g * c;
+	}
+	return 0;
+}
