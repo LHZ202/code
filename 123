@@ -1,0 +1,28 @@
+int main()
+{ 
+	int a, b;
+	int x1, x2 = 0;
+	printf("a2b3能被23整除，a2b3为：\n");
+	for (a = 1; a <= 9; a++)
+	{
+		x1 = a;
+		for (b = 1; b <= 9; b++)
+		{
+			x2 = b;
+			int y1 = a * 1000;
+			int y2 = b * 10;
+			int num1 = y1 + y2 + 203;
+			if (num1 % 23 == 0)
+			{
+				printf("%d\n", num1);
+			}
+			else
+			{
+				y1 = 0;
+				y2 = 0;
+				num1 = 0;
+			}
+		}
+	}
+	return 0;
+}
