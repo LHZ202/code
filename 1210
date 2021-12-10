@@ -1,0 +1,25 @@
+int suanoushu(int a)
+{
+
+	for (;;)
+	{
+		printf("请输入一个偶数：\n");
+		scanf_s("%d", &a);
+		if (a % 2 == 0)
+		{
+			printf("该数是偶数\n用户输入的数为：%d", a);
+			break;
+		}
+		else
+			printf("不是偶数，请重新输入");
+	}
+
+}
+
+int main()
+{
+	int a = 0;
+
+	suanoushu(a);
+	return 0;
+}
