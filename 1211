@@ -1,0 +1,41 @@
+void menu()
+{
+	//打印棋盘
+	printf("----------------------------\n");
+	printf("----------------------------\n");
+	printf("---1开始游戏 --结束游戏-----\n");
+	printf("----------------------------\n");
+	printf("----------------------------\n");
+}
+void main()
+{
+	int a = 0;
+	do
+	{
+		menu();
+		scanf_s("%d", a);
+	} 
+	while (1);
+	{
+		scanf_s("%d", a);
+		switch (a)
+		{
+		case 1:
+		{
+			printf("三子棋游戏开始\n");
+				game();
+				break;
+		}
+		case 0:
+		{
+			printf("你选择不开始游戏。如需开始请重新输入：\n");
+			break;
+		}
+		default:
+		{
+			printf("输入错误，请重新输入\n");
+			break;
+		}
+		}
+	}
+}
