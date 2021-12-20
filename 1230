@@ -1,0 +1,467 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include <windows.h>
+#include <mmsystem.h>
+#include "标头.h"
+#pragma comment(lib,"Winmm.lib")
+
+void text()
+{
+	
+	printf("   我很抱歉，");
+	Sleep(600);
+	printf("未经允许便喜欢上你，");
+	Sleep(600);
+	printf("你自人山人海中");
+	Sleep(600);
+	printf("而来，");
+	Sleep(600);
+	printf("这猛烈的欢喜，");
+	Sleep(600);
+	printf("我无可避免，");
+	Sleep(600);
+	printf("我甘之如饴，");
+	Sleep(600);
+	printf("我一头载进了");
+	Sleep(600);
+	printf("我的命运里，");
+	Sleep(600);
+	printf("就像跃进一个");
+	Sleep(600);
+	printf("深渊，");
+	Sleep(600);
+	printf("从那一秒起，");
+	Sleep(600);
+	printf("我的心里");
+	Sleep(600);
+	printf("只有一个，");
+	Sleep(600);
+	printf("就是你，");
+	Sleep(600);
+	printf("走在一起");
+	Sleep(600);
+	printf("是缘分，");
+	Sleep(600);
+	printf("一直走");
+	Sleep(600);
+	printf("是幸福，");
+	Sleep(600);
+	printf("人间太吵了，");
+	Sleep(600);
+	printf("你来我心里吧，");
+	Sleep(600);
+	printf("未来的路很长，");
+	Sleep(600);
+	printf("我一个人走不完，");
+	Sleep(600);
+	printf("需要你陪我走，\n");
+	Sleep(600);
+	printf("  想和你");
+	Sleep(600);
+	printf("去哈尔滨");
+	Sleep(600);
+	printf("看雪、");
+	Sleep(600);
+	printf("看冰雕，");
+	Sleep(600);
+	printf("我想和你一起");
+	Sleep(600);
+	printf("看蚂蚁、");
+	Sleep(600);
+	printf("看蝴蝶恋爱、");
+	Sleep(600);
+	printf("看蜘蛛结网，");
+	Sleep(600);
+	printf("我想有一天");
+	Sleep(600);
+	printf("你做饭我捣乱。");
+	Sleep(600);
+	printf("然后一起");
+	Sleep(600);
+	printf("看篮球赛、");
+	Sleep(600);
+	printf("看柯南、");
+	Sleep(600);
+	printf("看电影");
+	Sleep(600);
+	printf("再看你甜甜的睡觉。");
+	Sleep(600);
+	printf("我想你");
+	Sleep(600);
+	printf("依偎在我的怀中，");
+	Sleep(600);
+	printf("与你静默相对，");
+	Sleep(600);
+	printf("我们不谈过去、");
+	Sleep(600);
+	printf("不谈现在、");
+	Sleep(600);
+	printf("不谈将来\n");
+	Sleep(600);
+	printf("  和你遇见于千万人之中，");
+	Sleep(600);
+	printf("在时间的荒野里，");
+	Sleep(600);
+	printf("没有早一步");
+	Sleep(600);
+	printf("也没有晚一步，");
+	Sleep(600);
+	printf("刚刚好遇见你。");
+	Sleep(600);
+	printf("是你的轻描谈写，");
+	Sleep(600);
+	printf("把我的人生");
+	Sleep(600);
+	printf("拉进了浩瀚星河，");
+	Sleep(600);
+	printf("愿余生鲜衣怒马");
+	Sleep(600);
+	printf("陪你看烈焰繁花。");
+	Sleep(600);
+	printf("你以绝美之姿走来，");
+	Sleep(600);
+	printf("犹如夜晚晴空无云，");
+	Sleep(600);
+	printf("繁星灿烂。");
+	Sleep(600);
+	printf("那最绝妙的");
+	Sleep(600);
+	printf("光明与黑暗");
+	Sleep(600);
+	printf("均汇聚于你的风姿");
+	Sleep(600);
+	printf("于眼底，");
+	Sleep(600);
+	printf("交织成如许的白昼");
+	Sleep(600);
+	printf("所无缘看见。");
+	Sleep(600);
+	printf("你低眉一笑");
+	Sleep(600);
+	printf("纵使是这");
+	Sleep(600);
+	printf("世间繁花似锦也抵不过。");
+	Sleep(600);
+	printf("人生中最遗憾的");
+	Sleep(600);
+	printf("莫过于");
+	Sleep(600);
+	printf("轻易的放弃了");
+	Sleep(600);
+	printf("不该放弃的，");
+	Sleep(600);
+	printf("固执的");
+	Sleep(600);
+	printf("坚持了不该坚持的，");
+	Sleep(600);
+	printf("执念");
+	Sleep(600);
+	printf("是一个");
+	Sleep(600);
+	printf("非常恐怖的东西，");
+	Sleep(600);
+	printf("人一旦有了执念");
+	Sleep(600);
+	printf("就会变得疯狂");
+	Sleep(600);
+	printf("它如同毒药");
+	Sleep(600);
+	printf("慢慢的侵蚀骨髓，");
+	Sleep(600);
+	printf("融入灵魂");
+	Sleep(600);
+	printf("并逐渐长成身体的一个毒瘤，");
+	Sleep(600);
+	printf("对待生命");
+	Sleep(600);
+	printf("不妨大胆一点，");
+	Sleep(600);
+	printf("勇敢的生活，");
+	Sleep(600);
+	printf("大胆的尝试。\n");
+	Sleep(600);
+	printf("  在这个世界上");
+	Sleep(600);
+	printf("再也没有比");
+	Sleep(600);
+	printf("置身与人群之中");
+	Sleep(600);
+	printf("却又孤独的生活");
+	Sleep(600);
+	printf("更可怕的事了，");
+	Sleep(600);
+	printf("你我都一样");
+	Sleep(600);
+	printf("害怕在感情中受到伤害，");
+	Sleep(600);
+	printf("害怕受到委屈，");
+	Sleep(600);
+	printf("我对自己的感情很专一，");
+	Sleep(600);
+	printf("我保证不会伤害你，");
+	Sleep(600);
+	printf("我是一个长情的人，");
+	Sleep(600);
+	printf("爱就在这里");
+	Sleep(600);
+	printf("不离不弃\n");
+	Sleep(600);
+	printf("  一想到你我就兴奋不已，");
+	Sleep(1000);
+	printf("你来了一潭死水有了涟漪；");
+	Sleep(1000);
+	printf("你来了一片落叶有了归宿；");
+	Sleep(1000);
+	printf("你来了一个人便有了牵挂，");
+	Sleep(1000);
+	printf("一花一世界，");
+	Sleep(1000);
+	printf("一叶一追寻，");
+	Sleep(1000);
+	printf("我的世界是你，");
+	Sleep(1000);
+	printf("我的追寻是你。\n");
+	Sleep(1000);
+	printf("  起初我怕我做得不好，");
+	Sleep(1000);
+	printf("让你觉得爱情不过如此，");
+	Sleep(1000);
+	printf("所以我会");
+	Sleep(1000);
+	printf("倍加努力");
+	Sleep(1000);
+	printf("让你感到幸福和温暖，");
+	Sleep(1000);
+	printf("我想和你永远在一起。");
+
+	Sleep(2000);
+
+
+}
+void tree()
+{
+	int a,d,b,e,f,j;
+	int h = 7;
+	int c = 0;
+	int x = 0;
+	char background = ' ';//空白背景填充
+	char snow = '*';//雪花填充
+	char foliage = '0';//树主题填充
+	char ground = '-';//地面填充
+
+	//打印树叶同时打印背景
+	for (a = 0; a < 3; a++)//树的总层数（大
+	{
+		b = 3 + c;
+		for (d = 1; d <= b; d++)//每一层树叶（大）所需要的层数（排
+		{
+			for (e = 0; e < 80; e++)//在一排上判断
+			{
+				if ((e <= 25 + x) && (e >= 25 - x))//判断打印树叶
+				{
+					printf("%c", foliage);
+					Sleep(60);//睡一下
+				}
+				else if (((e >= 25 + x) && (e % h == 0))|| ((e <= 25 - x)&&(e%h==0)))//判断打印雪花//判断不是打印树叶的地方
+				{
+					printf("%c", snow);
+					Sleep(60);//睡一下
+					if (h % 2 == 0)//使雪花更有层次感
+						h++;
+					else
+						h--;
+
+				}
+				else//判断是否打印背景
+				{
+					printf("%c", background);
+				}
+				
+			}
+			x = x + 2;//改变变量大小，调整上面每层需要打印的
+			printf("\n");//切换行
+			h++;
+			h = h % 9;
+			if (h == 0)
+				h = 5;
+			//使雪花更有层次感				
+		}
+		x = x - 4;//使圣诞树更有层次感
+		c++;
+	}
+	//打印树干
+	for (a = 6; a > 0;a--)
+	{
+		for (b = 0; b < 3; b++)
+		{
+			for (e = 0; e < 80; e++)//在一排上判断
+			{
+				if ((e > 22) && (e < 25))//判断打印树干
+				{
+					for (b=1; b<=3; b++)
+					{
+						printf("%c", foliage);
+						Sleep(60);
+					}
+				}
+				else if (((e >= 25) && (e % h == 0)) || ((e <= 22 ) && (e % h == 0)))//判断打印雪花//判断不是打印树叶的地方
+				{
+					printf("%c", snow);
+					Sleep(60);//睡一下
+					if (h % 2 == 0)//使雪花更有层次感
+						h++;
+					else
+						h--;
+
+				}
+				else//判断是否打印背景
+				{
+					printf("%c", background);
+				}
+			}			
+			printf("\n");//切换行
+			h++;
+			h = h % 9;
+			if (h == 0)
+				h = 5;
+			//使雪花更有层次感				
+		}
+	}
+	//打印地面
+	for (a = 0; a <= 3; a++)
+	{
+		for (e = 0; e < 80; e++)
+		{
+			printf("%c", ground);
+		}
+		printf("\n");
+	}
+}
+
+
+
+
+
+
+
+
+
+
+//void tree()
+//{
+//    int i, j, x;
+//    int n = 0;
+//    // a是间隔填充物，这里用空白填充；b是雪花，这里用*表示；c是圣诞树的填充，用'0'表示 
+//    char a = ' ', b = '*', c = '0';
+//    // 第一部分，输出树叶
+//    for (x = 0; x < 3; x++) {
+//        // 想让圣诞树变高可以将4这个值调高 
+//        for (i = 0; i < x + 5; i++) {
+//            for (j = 0; j < 80; j++) {
+//                if ((j <= 25 + n) && (j >= 25 - n)) {
+//                    printf("%c", c);
+//					Sleep(50);
+//                }
+//                else if ((j % (n + 6) == n) && ((j > 25 + n) || (j < 25 - n))) {
+//                    printf("%c", b);
+//					Sleep(50);
+//                }
+//                else {
+//                    printf("%c", a);
+//                }
+//            }
+//            printf("\n");
+//            n = n + 2;
+//        }
+//        n = n - 2 * (x + 2);
+//    }
+//    // 第二部分，输出树干，高度为5 
+//    for (i = 0; i < 5; i++) {
+//        for (j = 0; j < 80; j++) {
+//            if (j >= 22 && j <= 28) {
+//                printf("%c", c);
+//				Sleep(50);
+//            }
+//            else if ((j % (n + 6) == n) && ((j > 25 + n) || (j < 25 - n))) {
+//                printf("%c", b);
+//				Sleep(50);
+//            }
+//            else {
+//                printf("%c", a);
+//            }
+//        }
+//        n = n + 2;
+//        printf("\n");
+//    }
+//    // 第三部分，输出地面，高度为3 
+//    for (i = 0; i < 3; i++) {
+//        for (j = 0; j < 80; j++) {
+//            if (j % 2 == 0) {
+//                printf("%c", b);
+//				Sleep(50);
+//            }
+//            else {
+//                printf("%c", a);
+//            }
+//
+//        }
+//        printf("\n");
+//    }  
+//}
+int main()
+{
+	 PlaySound(TEXT("1.wav"),NULL,SND_FILENAME | SND_ASYNC | SND_LOOP);
+	//播放音乐
+	 Sleep(30000);
+	 printf("\033[31;47;1m呐，圣诞树---。\n");
+	 Sleep(5000);
+	 printf("可能是晚了点\n");
+	 Sleep(5000);
+	tree();
+	//打印树
+	text();
+	//打印菜单
+	
+	char a[] = "i love you i love you i love you i l";
+
+	printf("\033[31;47;1m              你就像猫咪，迷惑而又治愈\n");
+	Sleep(1000);
+	printf(" % *.*s\n", 58, 21, "_@=_           _=@_");
+	Sleep(1000);
+	printf(" % *.*s\n", 61, 25, "i love you   you i love!");
+	Sleep(1000);
+	printf(" % *.*s\n", 63, 29, "i love you i l ove you i love");
+	Sleep(1000);
+	printf(" % *.*s\n", 65, 33, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 66, 35, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 66, 35, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 65, 33, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 64, 31, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 62, 26, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 61, 25, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 59, 21, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 57, 17, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 55, 13, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 53, 9, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 51, 5, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 50, 3, "i love you i love you i love you i l");
+	Sleep(1000);
+	printf(" % *.*s\n", 49, 1, "i love you i love you i love you i l");
+
+	printf("\033[31;47;1          而我，已迷失在你的星系\n");
+	Sleep(50000);
+	return 0;
+}
